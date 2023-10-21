@@ -32,12 +32,12 @@ export default function Buscar() {
             <Layout>
                 <div className='listado-productos'>
                     <div className='contenedor' >
-                        <ul className='bg-white'>
+                        {/* <ul className='bg-white'>
                             {resultado.map(
                                 producto => (
                                     <DetallesProductos key={producto.id} producto={producto} />
                                 ))}
-                        </ul>
+                        </ul> */}
                     </div>
                 </div>
             </Layout>
